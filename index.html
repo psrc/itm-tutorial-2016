@@ -126,116 +126,6 @@ eventbrite:       # optional (insert the alphanumeric key for Eventbrite registr
   for more information.
 </p>
 
-<hr/>
-
-<!--
-  SCHEDULE
-
-  Show the workshop's schedule.  Edit the items and times in the table
-  to match your plans.  You may also want to change 'Day 1' and 'Day
-  2' to be actual dates or days of the week.
--->
-<h2 id="schedule">Schedule</h2>
-
-<div class="row">
-  <div class="col-md-4">
-    <h3>Day 1:<br/>Command-Line Ninja</h3>
-    <table class="table table-striped">
-      <tr> <td>Arrival</td>  <td><a href='{{ site.swc_pre_survey }}{{ site.github.project_title }}'>Pre-workshop Survey</a></td> </tr>
-      <tr> <td>12:30pm</td> <td>Introducing the Unix Shell
-            <br/>Files and Directories
-            <br/>Pipes and Filters</td> </tr>
-      <tr> <td>2:00pm</td>  <td>Coffee</td> </tr>
-      <tr> <td>2:15pm</td>  <td>Looping
-            <br/>Shell Scripts
-            <br/>Finding Things</td> </tr>
-      <tr> <td>4:00pm</td>  <td>Wrap-up</td> </tr>
-    </table>
-  </div>
-  <div class="col-md-4">
-    <h3>Day 2:<br/>Git Version Control</h3>
-    <table class="table table-striped">
-      <tr> <td>12:30pm</td> <td>Setting up Git
-            <br/>Creating a Repository
-            <br/>Tracking Changes
-            <br/>Exploring History
-            <br/>Ignoring Things</td> </tr>
-      <tr> <td>2:00pm</td>  <td>Coffee</td> </tr>
-      <tr> <td>2:15pm</td>  <td>Remotes in GitHub
-            <br/>Collaborating with Others
-            <br/>Resolving Conflicts</td> </tr>
-      <tr> <td>4:00pm</td>  <td>Wrap-up</td> </tr>
-    </table>
-  </div>
-  <div class="col-md-4">
-    <h3>Day 3:<br/>Python Wrangling</h3>
-    <table class="table table-striped">
-      <tr> <td>12:30pm</td> <td>Analyzing Data
-            <br/>Repeating Actions with Loops
-            <br/>Multiple Values and Lists
-            <br/>Making Choices </td> </tr>
-      <tr> <td>2:00pm</td>  <td>Coffee</td> </tr>
-      <tr> <td>2:15pm</td>  <td>Creating Functions
-            <br/>Errors and Exceptions
-            <br/>Defensive Programming and Debugging</td> </tr>
-      <tr> <td>4:00pm</td>  <td>Wrap-up</td> </tr>
-    </table>
-  </div>
-</div>
-<div class="row">
-  <div class="col-md-4">
-    <h3>Day 4:<br/>Managing Data with SQL</h3>
-    <table class="table table-striped">
-      <tr> <td>12:30pm</td>
-        <td>Selecting Data
-            <br/>Sorting and Removing Duplicates
-            <br/>Filters
-            <br/>Calculating New Values
-            <br/>Missing Data
-        </td> </tr>
-      <tr> <td>2:00pm</td>  <td>Coffee</td> </tr>
-      <tr> <td>2:15pm</td>
-        <td>Aggregation and Combining Data
-            <br/>Data Hygiene
-            <br/>Creating and Modifying Data
-            <br/>Python and Databases
-        </td> </tr>
-      <tr> <td>4:00pm</td>  <td>Wrap-up</td> </tr>
-    </table>
-  </div>
-  <div class="col-md-4">
-    <h3>Day 5:<br/>Automation and Make</h3>
-    <table class="table table-striped">
-      <tr> <td>12:30pm</td> <td>Introducing Make
-            <br/>Makefiles and Automatic Variables
-            <br/>Dependencies on Data and Code</td> </tr>
-      <tr> <td>2:00pm</td>  <td>Coffee</td> </tr>
-      <tr> <td>2:15pm</td>  <td>Pattern Rules
-            <br/>Variables and Functions</td> </tr>
-      <tr> <td>4:00pm</td>  <td>Post-Workshop Survey</td> </tr>
-    </table>
-  </div>
-  <div class="col-md-4">
-    <h3>Bonus Day:<br/>R for Data Analysis</h3>
-    <table class="table table-striped">
-      <tr> <td>12:30pm</td> <td>Introducing R and RStudio
-            <br/>Data structures, data frames, and reading data
-            <br/>Subsetting Data
-            <br/>Creating functions
-            <br/>Creating graphics
-            <br/>Vectorization</td> </tr>
-      <tr> <td>2:00pm</td>  <td>Coffee</td> </tr>
-      <tr> <td>2:15pm</td>  <td>Control flow
-            <br/>Writing Data
-            <br/>Split-apply-combine
-            <br/>Dataframe manipulation with dplyr
-            <br/>Dataframe manipulation with tidyr
-          </td> </tr>
-      <tr> <td>4:00pm</td>  <td>Wrap-up</td> </tr>
-    </table>
-  </div>
-
-</div>
 
 <!--
   ETHERPAD
@@ -252,14 +142,13 @@ eventbrite:       # optional (insert the alphanumeric key for Eventbrite registr
   e.g., '2015-06-10-esu'.
 -->
 {% if page.etherpad %}
+<hr/>
 <p id="etherpad">
   <strong>Etherpad:</strong> <a href="{{page.etherpad}}">{{page.etherpad}}</a>.
   <br/>
   We will use this Etherpad for chatting, taking notes, and sharing URLs and bits of code.
 </p>
 {% endif %}
-
-<hr/>
 
 <!--
   SYLLABUS
@@ -278,6 +167,8 @@ eventbrite:       # optional (insert the alphanumeric key for Eventbrite registr
   please preview your site before committing, and make sure to run
   'tools/check' as well.
 -->
+<hr/>
+
 <h2 id="syllabus">Syllabus</h2>
 
 <div class="row">
