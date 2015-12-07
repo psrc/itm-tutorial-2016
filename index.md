@@ -138,8 +138,8 @@ This hands-on workshop will cover basic
       <li>Viewing changes: <code>status</code>, <code>diff</code>, ...</li>
       <li>Ignoring files</li>
       <li>Working on the web: <code>clone</code>, <code>pull</code>, <code>push</code>, ...</li>
+      <li>Collaborating with others</li>
       <li>Resolving conflicts</li>
-      <li>Open licenses</li>
       <li>Where to host work, and why</li>
       <li><a href="{{site.swc_githubio}}/git-novice/reference.html">Reference...</a></li>
     </ul>
@@ -213,10 +213,12 @@ To participate in a Software Carpentry workshop, you will need
 access to the software described below. In addition, you will
 need an up-to-date web browser.
 
-We maintain a list of common issues that occur during installation as a reference for instructors
-that may be useful on the [Configuration Problems and Solutions wiki page](https://github.com/swcarpentry/workshop-template/wiki/Configuration-Problems-and-Solutions).
+**Be sure to set up all five software items below on your primary desktop computer ahead of time -- before the day of the course.**
 
-**Be sure to set up all five software items below ahead of time -- before the day of the course.**
+At the workshop, you will be using a borrowed laptop to remote control your primary work computer: that way, all the software setup can happen ahead of time. Added bonus: all the software will be at your fingertips when you return to your desk afterwards, too.
+
+We maintain a list of common issues that occur during installation as a reference for instructors that may be useful on the [Configuration Problems and Solutions wiki page](https://github.com/swcarpentry/workshop-template/wiki/Configuration-Problems-and-Solutions).
+
 
 ---
 
@@ -291,6 +293,27 @@ To install Ananconda Python:
 SQL is a specialized programming language used with databases. Here at PSRC, we have existing enterprise databases in MS-SQL and MySQL, but those are a bit complex to set up. For this course, we use a simple database manager called [SQLite](http://www.sqlite.org). The SQL language is essentially identical, so the skills will all transfer -- and having a simple desktop version of SQL has its own benefits.
 
 * The [Software Carpentry Windows Installer]({{site.swc_github}}) installs SQLite for Windows. If you used the installer already to install the nano text editor, you don't need to run it again. Otherwise, run it now.
+
+#### F. Check your setup
+
+**To check you have the correct version of Python:**
+
+* Download [swc-installation-test-1.py](http://psrc.github.io/2015-12-scripting-workshop/setup/swc-installation-test-1.py)
+* Open up a Bash shell - start "Git Bash" on Windows, or "Terminal" on Mac
+* Change into the directory where you put the script by typing in the bash window:
+   * <code>cd ~/Downloads</code>
+* Run the script:
+   * <code>python swc-installation-test-1.py</code>
+
+**To check you have set up the other software requirements correctly:**
+
+* Download [swc-installation-test-2.py](http://psrc.github.io/2015-12-scripting-workshop/setup/swc-installation-test-2.py)
+* Open up a Bash shell. Change into the directory where you put the script by typing in the bash window:
+   * <code>cd ~/Downloads</code>
+* Run the script:
+   * <code>python swc-installation-test-2.py</code>
+
+If anything is missing, the script output will specify what needs to be corrected.
 
 ---
 
