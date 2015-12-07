@@ -261,7 +261,7 @@ exclamation mark), then hitting Return to return to the shell.
 
 **nano** is a basic editor and the default that instructors use in the workshop.
 
-* To install nano, download the [Software Carpentry Windows installer]({{site.swc_installer}}) and double click on the file to run it. *This installer requires an active internet connection.*
+* To install nano, download the [Software Carpentry Windows installer](https://github.com/swcarpentry/windows-installer/releases/latest) and double click on the file to run it. *This installer requires an active internet connection.*
 * Even if you choose not to use nano, we recommend you run the Software Carpentry installer because it also sets sane defaults for some other tools such as SQLite and Make.
 * **Others editors** that you may want to use are [Notepad++](http://notepad-plus-plus.org) or [Sublime Text](http://www.sublimetext.com). Be aware that you must add the editor's installation directory to your system path. Please ask your instructor to help you do this.
 
@@ -292,7 +292,7 @@ To install Ananconda Python:
 
 SQL is a specialized programming language used with databases. Here at PSRC, we have existing enterprise databases in MS-SQL and MySQL, but those are a bit complex to set up. For this course, we use a simple database manager called [SQLite](http://www.sqlite.org). The SQL language is essentially identical, so the skills will all transfer -- and having a simple desktop version of SQL has its own benefits.
 
-* The [Software Carpentry Windows Installer]({{site.swc_github}}) installs SQLite for Windows. If you used the installer already to install the nano text editor, you don't need to run it again. Otherwise, run it now.
+* The [Software Carpentry Windows Installer](https://github.com/swcarpentry/windows-installer/releases/latest) installs SQLite for Windows. If you used the installer already to install the nano text editor, you don't need to run it again. Otherwise, run it now.
 
 #### F. Check your setup
 
