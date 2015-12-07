@@ -298,7 +298,7 @@ SQL is a specialized programming language used with databases. Here at PSRC, we 
 
 **To check you have the correct version of Python:**
 
-* Download [swc-installation-test-1.py](http://psrc.github.io/2015-12-scripting-workshop/setup/swc-installation-test-1.py)
+* Download [swc-installation-test-1.py](/2015-12-scripting-workshop/setup/swc-installation-test-1.py)
 * Open up a Bash shell - start "Git Bash" on Windows, or "Terminal" on Mac
 * Change into the directory where you put the script by typing in the bash window:
    * <code>cd ~/Downloads</code>
@@ -307,7 +307,7 @@ SQL is a specialized programming language used with databases. Here at PSRC, we 
 
 **To check you have set up the other software requirements correctly:**
 
-* Download [swc-installation-test-2.py](http://psrc.github.io/2015-12-scripting-workshop/setup/swc-installation-test-2.py)
+* Download [swc-installation-test-2.py](/2015-12-scripting-workshop/setup/swc-installation-test-2.py)
 * Open up a Bash shell. Change into the directory where you put the script by typing in the bash window:
    * <code>cd ~/Downloads</code>
 * Run the script:
