@@ -246,7 +246,7 @@ to what when and has options for easily updating a shared or public version of y
 on [github.com](https://github.com). You will need a [supported web browser](https://help.github.com/articles/supported-browsers) (current versions of Chrome, Firefox or Safari, or Internet Explorer version 9 or above).
 
 * Git should be installed on your computer as part of your Bash install (described above).
-
+* Be sure to create a user account at [GitHub.com](http://github.com) and remember your password!
 
 #### C. Text Editor
 
