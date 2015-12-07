@@ -52,9 +52,9 @@ eventbrite:       # optional (insert the alphanumeric key for Eventbrite registr
   the pitch.
 -->
 
-This course is based on materials produced by [Software Carpentry]({{site.swc_site}}). Software Carpentry's mission is to help scientists and engineers get more research done in less
+Hello! Scripting Carpentry is a set of introductory workshops that can help get you up to speed on tools that will make your work day easier. This course is based on materials produced by [Software Carpentry]({{site.swc_site}}). Software Carpentry's mission is to help scientists and engineers get more research done in less
 time and with less pain by teaching them basic lab skills for
-scientific computing. We can't call this a Software Carpentry course, however, because they provide the materials freely but hang on to the copyright.
+scientific computing.
 
 This hands-on workshop will cover basic
   concepts and tools, including program design, version control, data
@@ -78,12 +78,13 @@ This hands-on workshop will cover basic
 {% endif %}
 
 
-**Requirements:** Participants must bring a laptop with
-  a few specific software packages installed (listed
-  <a href="#setup">below</a>). They are also required to abide by the
-  Software Carpentry [Code of Conduct]({{site.swc_site}}/conduct.html).
+**Requirements:** All participants will need to set up a few specific software packages on their computer ([listed below](#setup)).
 
-**Contact:** Please mail {% if page.contact %}
+* If you are PSRC staff, set up the software on your **primary work desktop/laptop** in advance of the workshop day.
+* If you are not currently working at PSRC, **you must bring your own laptop**, set up with the software below.
+* All participants are also required to abide by the Software Carpentry [Code of Conduct]({{site.swc_site}}/conduct.html).
+
+**Contact:** Email {% if page.contact %}
 [{{page.contact}}](mailto:{{page.contact}})
 {% else %}
 [{{site.contact}}](mailto:{{site.contact}})
@@ -215,7 +216,7 @@ need an up-to-date web browser.
 
 **Be sure to set up all five software items below on your primary desktop computer ahead of time -- before the day of the course.**
 
-At the workshop, you will be using a borrowed laptop to remote control your primary work computer: that way, all the software setup can happen ahead of time. Added bonus: all the software will be at your fingertips when you return to your desk afterwards, too.
+At the workshop, you may be using a borrowed laptop to remote control your primary work computer: that way, all the software setup can happen ahead of time. Added bonus: all the software will be at your fingertips when you return to your desk afterwards, too.
 
 We maintain a list of common issues that occur during installation as a reference for instructors that may be useful on the [Configuration Problems and Solutions wiki page](https://github.com/swcarpentry/workshop-template/wiki/Configuration-Problems-and-Solutions).
 
@@ -279,7 +280,7 @@ that runs in a web browser. For this to work, you will need an
 up-to-date browser. The current versions of the Chrome, Safari and
 Firefox browsers are [all supported](http://ipython.org/ipython-doc/2/install/install.html#browser-compatibility). Some older browsers, including Internet Explorer version 9 and below, are not.
 
-To install Ananconda Python:
+To install Anaconda Python:
 
 * Open the Continuum Ananaconda [download page](http://continuum.io/downloads) with your web browser.
 * Download the Python 2.7 installer for Windows.

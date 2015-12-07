@@ -34,6 +34,8 @@ h2 code, h3 code, h4 code, h5 code, h6 code {
 hr {
     padding-bottom: 0em;
     margin-bottom: 0em;
+    background-color: #669900;
+    height: 0.5px;
 }
 
 /* Objectives, Callout Box, Challenges and prerequisites are now rendered as
