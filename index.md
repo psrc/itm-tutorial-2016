@@ -97,31 +97,6 @@ Email {% if page.contact %}
 {% endif %} for more information.
 
 
-<!--
-  ETHERPAD
-
-  At `_misc/etherpad.txt` you will find a template for the etherpad.
-
-  Display the Etherpad for the workshop.  You can set this up in
-  advance or on the first day; either way, make sure you push changes
-  to GitHub after you have its URL.  To create an Etherpad, go to
-
-      http://pad.software-carpentry.org/YYYY-MM-DD-site
-
-  where 'YYYY-MM-DD-site' is the identifier for your workshop,
-  e.g., '2015-06-10-esu'.
--->
-
-{% if page.etherpad %}
-
-#### Etherpad
-
-We will use Etherpad for chatting, taking notes, and sharing URLs and bits of code.
-
-**Etherpad:** [{{page.etherpad}}]({{page.etherpad}}).
-
-{% endif %}
-
 ---
 
 ## Syllabus
@@ -214,6 +189,31 @@ We will use Etherpad for chatting, taking notes, and sharing URLs and bits of co
 
 </div>
 
+<!--
+  ETHERPAD
+
+  At `_misc/etherpad.txt` you will find a template for the etherpad.
+
+  Display the Etherpad for the workshop.  You can set this up in
+  advance or on the first day; either way, make sure you push changes
+  to GitHub after you have its URL.  To create an Etherpad, go to
+
+      http://pad.software-carpentry.org/YYYY-MM-DD-site
+
+  where 'YYYY-MM-DD-site' is the identifier for your workshop,
+  e.g., '2015-06-10-esu'.
+-->
+
+{% if page.etherpad %}
+
+#### Etherpad
+
+We will use Etherpad for chatting, taking notes, and sharing URLs and bits of code.
+
+**Etherpad:** [{{page.etherpad}}]({{page.etherpad}}).
+
+{% endif %}
+
 ------
 
 ## Setup
@@ -233,9 +233,14 @@ We maintain a list of common issues that occur during installation as a referenc
 
 ### Windows Instructions
 
-#### A. The Unix 'Bash' Shell
+#### A. Git and the Unix 'Bash' Shell
 
-Bash is a commonly-used shell that gives you the power to do simple tasks more quickly. On Windows, the easiest way to get Bash is to use the copy that is included in the Git for Windows installer.
+Git is a version control system that lets you track who made changes to what when and has options for easily updating a shared or public version of your code
+on [github.com](https://github.com). You will need a [supported web browser](https://help.github.com/articles/supported-browsers) (current versions of Chrome, Firefox or Safari, or Internet Explorer version 9 or above).
+
+Bash is a commonly-used shell that gives you the power to do simple tasks more quickly.
+
+On Windows, the easiest way to get Bash is to use the copy that is included in the Git for Windows installer.
 
 1. Download the [Git for Windows Installer](https://git-for-windows.github.io).
 2. Run the installer and follow the steps below:
@@ -247,19 +252,9 @@ Bash is a commonly-used shell that gives you the power to do simple tasks more q
    6. **Select "Use Git from the Windows Command Prompt" and click on "Next".** If you forget to do this, programs that you need for the workshop will not work properly. If this happens, rerun the installer and select the appropriate option.  Click "Next"
    7. Keep **"Checkout Windows-style, commit Unix-style line endings"** selected. Click "Next".
    8. Select **"Use Windows' default console window"** and click on "Next" and "Finish".
+3. Be sure to create a user account at [GitHub.com](http://github.com) and remember your password!
 
-This will provide you with both Git and Bash from the Git Bash program.
-
-#### B. Git
-
-Git is a version control system that lets you track who made changes
-to what when and has options for easily updating a shared or public version of your code
-on [github.com](https://github.com). You will need a [supported web browser](https://help.github.com/articles/supported-browsers) (current versions of Chrome, Firefox or Safari, or Internet Explorer version 9 or above).
-
-* Git should be installed on your computer as part of your Bash install (described above).
-* Be sure to create a user account at [GitHub.com](http://github.com) and remember your password!
-
-#### C. Text Editor
+#### B. Text Editor
 
 When you're writing code, it's nice to have a text editor that is
 optimized for writing code, with features like automatic
@@ -274,7 +269,7 @@ exclamation mark), then hitting Return to return to the shell.
 * Even if you choose not to use nano, we recommend you run the Software Carpentry installer because it also sets sane defaults for some other tools such as SQLite and Make.
 * **Others editors** that you may want to use are [Notepad++](http://notepad-plus-plus.org) or [Sublime Text](http://www.sublimetext.com). Be aware that you must add the editor's installation directory to your system path. Please ask your instructor to help you do this.
 
-#### D. Python
+#### C. Python
 
 [Python](http://python.org) is a very popular language for
 scientific computing, and great for general-purpose programming as
@@ -295,7 +290,7 @@ To install Anaconda Python:
 * Install Python 2.7 using all of the defaults for installation **except** make sure to check **Make Anaconda the default Python**.
 
 
-#### E. SQLite
+#### D. SQLite
 
 ***FOR DISCUSSION*** - SQLite is easiest way to fiddle with SQL on a desktop. But we could also set up access to our "real" MySQL databases right?
 
@@ -303,7 +298,7 @@ SQL is a specialized programming language used with databases. Here at PSRC, we 
 
 * The [Software Carpentry Windows Installer](https://github.com/swcarpentry/windows-installer/releases/latest) installs SQLite for Windows. If you used the installer already to install the nano text editor, you don't need to run it again. Otherwise, run it now.
 
-#### F. Check your setup
+#### E. Check your setup
 
 **To check you have the correct version of Python:**
 
