@@ -13,9 +13,10 @@ enddate: "2015-12-16"    # use YYYY-MM-DD format like" 2015-01-02"
 instructor: ["Billy Charlton", "Peter&nbsp;Caballero", "Suzanne&nbsp;Childress", "Brice&nbsp;Nichols", "Hana&nbsp;Ševčíková", "Stefan&nbsp;Coe"]
 helper: ['TBD']
 contact: "bcharlton@psrc.org"
-etherpad:         # optional (insert the URL for your Etherpad if you're using one)
+etherpad: "https://public.etherpad-mozilla.org/p/psrc-scripting-workshop-2015"
 eventbrite:       # optional (insert the alphanumeric key for Eventbrite registration, e.g., "1234567890AB")
 ---
+
 <!--
   HEADER
 
@@ -52,7 +53,7 @@ eventbrite:       # optional (insert the alphanumeric key for Eventbrite registr
   the pitch.
 -->
 
-Hello! Scripting Carpentry is a set of introductory workshops that can help get you up to speed on tools that will make your work day easier. This course is based on materials produced by [Software Carpentry]({{site.swc_site}}). Software Carpentry's mission is to help scientists and engineers get more research done in less
+Hi there! Scripting Carpentry is a set of introductory workshops that can help get you up to speed on tools that will make your work day easier. This course is based on materials produced by [Software Carpentry]({{site.swc_site}}). Software Carpentry's mission is to help scientists and engineers get more research done in less
 time and with less pain by teaching them basic lab skills for
 scientific computing.
 
@@ -69,22 +70,27 @@ This hands-on workshop will cover basic
   workshop is only open to people from a particular institution.
 -->
 
-**Who:** The course is aimed at practitioners, researchers and data scientists in any technical field. *You don't need to have any previous knowledge of the tools that will be presented at the workshop.*
+<table><tr>
+<td><b>Who:</b></td>
 
-{% if page.latlng %}
-**Where:** {{page.address}}. Get directions with
-  <a href="//www.openstreetmap.org/?mlat={{page.latlng | replace:',','&mlon='}}&zoom=16">OpenStreetMap</a>
-  or <a href="//maps.google.com/maps?q={{page.latlng}}">Google Maps</a>.
-{% endif %}
+<td>The course is aimed at practitioners, researchers and data scientists in any technical field. <i>You don't need to have any previous knowledge of the tools that will be presented at the workshop.</i></td></tr>
 
+<td><b>Where:</b></td>
 
-**Requirements:** All participants will need to set up a few specific software packages on their computer ([listed below](#setup)).
+<td>{{page.address}}.<br/>Get directions with <a href="http://www.openstreetmap.org/?mlat={{page.latlng | replace:',','&mlon='}}&zoom=16">OpenStreetMap</a> or <a href="http://maps.google.com/maps?q={{page.latlng}}).">Google Maps</a></td>
 
-* If you are PSRC staff, set up the software on your **primary work desktop/laptop** in advance of the workshop day.
-* If you are not currently working at PSRC, **you must bring your own laptop**, set up with the software below.
-* All participants are also required to abide by the Software Carpentry [Code of Conduct]({{site.swc_site}}/conduct.html).
+<tr><td valign="top"><b>Requirements:</b></td>
 
-**Contact:** Email {% if page.contact %}
+<td>All participants will need to set up a few specific software packages on their computer <a href="#setup">(listed below)</a>.
+<ul><li>If you are PSRC staff, set up the software on your <b>primary work desktop/laptop</b> in advance of the workshop day.</li>
+<li>If you are not currently working at PSRC, <b>you must bring your own laptop</b>, set up with the software below.</li>
+<li>All participants are also required to abide by the Software Carpentry <a href="{{site.swc_site}}/conduct.html">Code of Conduct</a>.</li>
+</ul>
+</td></tr>
+
+</table>
+
+Email {% if page.contact %}
 [{{page.contact}}](mailto:{{page.contact}})
 {% else %}
 [{{site.contact}}](mailto:{{site.contact}})
@@ -105,13 +111,15 @@ This hands-on workshop will cover basic
   where 'YYYY-MM-DD-site' is the identifier for your workshop,
   e.g., '2015-06-10-esu'.
 -->
+
 {% if page.etherpad %}
-<hr/>
-<p id="etherpad">
-  <strong>Etherpad:</strong> <a href="{{page.etherpad}}">{{page.etherpad}}</a>.
-  <br/>
-  We will use this Etherpad for chatting, taking notes, and sharing URLs and bits of code.
-</p>
+
+#### Etherpad
+
+We will use Etherpad for chatting, taking notes, and sharing URLs and bits of code.
+
+**Etherpad:** [{{page.etherpad}}]({{page.etherpad}}).
+
 {% endif %}
 
 ---
