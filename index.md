@@ -252,7 +252,9 @@ On Windows, the easiest way to get Bash is to use the copy that is included in t
    6. **Select "Use Git from the Windows Command Prompt" and click on "Next".** If you forget to do this, programs that you need for the workshop will not work properly. If this happens, rerun the installer and select the appropriate option.  Click "Next"
    7. Keep **"Checkout Windows-style, commit Unix-style line endings"** selected. Click "Next".
    8. Select **"Use Windows' default console window"** and click on "Next" and "Finish".
-3. Be sure to create a user account at [GitHub.com](http://github.com) and remember your password!
+3. ConsoleZ is a much nicer "terminal" program that has a legible font, resizable window, and more. You'll use ConsoleZ to launch the Bash terminal window instead of using the "Git Bash" icon.
+   * Download the [ConsoleZ Installer](/setup/ConsoleZ-Installer.exe) and follow the default installer prompts.
+   * If Chrome or Firefox warns you that the installer file is untrusted, just go along with it. I created the installer here at PSRC and it is safe to install.
 
 #### B. Text Editor
 
