@@ -300,6 +300,45 @@ SQL is a specialized programming language used with databases. Here at PSRC, we 
 
 * The [Software Carpentry Windows Installer](https://github.com/swcarpentry/windows-installer/releases/latest) installs SQLite for Windows. If you used the installer already to install the nano text editor, you don't need to run it again. Otherwise, run it now.
 
+#### E. R-Project (Statistics Software)
+
+[R](http://www.r-project.org) is a programming language that is especially powerful for data exploration, visualization, and statistical analysis. To interact with R, we use [RStudio](http://www.rstudio.com).
+
+<div class="row">
+    <div class="col-md-4">
+      <h4 id="r-windows">Windows</h4>
+      <p>
+        Install R by downloading and running
+        <a href="http://cran.r-project.org/bin/windows/base/release.htm">this .exe file</a>
+        from <a href="http://cran.r-project.org/index.html">CRAN</a>.
+        <br/>Also, please install the
+        <a href="http://www.rstudio.com/ide/download/desktop">RStudio IDE</a>.
+      </p>
+    </div>
+    <div class="col-md-4">
+      <h4 id="r-macosx">Mac OS X</h4>
+      <p>
+        Install R by downloading and running
+        <a href="http://cran.r-project.org/bin/macosx/R-latest.pkg">this .pkg file</a>
+        from <a href="http://cran.r-project.org/index.html">CRAN</a>.
+        <br/>Also, please install the
+        <a href="http://www.rstudio.com/ide/download/desktop">RStudio IDE</a>.
+      </p>
+    </div>
+    <div class="col-md-4">
+      <h4 id="r-linux">Linux</h4>
+      <p>
+        You can download the binary files for your distribution
+        from <a href="http://cran.r-project.org/index.html">CRAN</a>. Or
+        you can use your package manager (e.g. for Debian/Ubuntu
+        run <code>sudo apt-get install r-base</code> and for Fedora run
+        <code>sudo yum install R</code>).
+        <br/>Also, please install the
+        <a href="http://www.rstudio.com/ide/download/desktop">RStudio IDE</a>.
+      </p>
+    </div>
+</div> <!-- End of 'R' section. -->
+
 #### E. Check your setup
 
 **To check you have the correct version of Python:**
@@ -344,48 +383,3 @@ If anything is missing, the script output will specify what needs to be correcte
 
 Use your system's package manager to install python, sqlite, git, and nano.
 
-
----
-
-### R
-
-If your course includes a module on R, you'll need to install it as well.
-
-[R](http://www.r-project.org) is a programming language
-    that is especially powerful for data exploration, visualization, and
-    statistical analysis. To interact with R, we use [RStudio](http://www.rstudio.com).
-
-  <div class="row">
-    <div class="col-md-4">
-      <h4 id="r-windows">Windows</h4>
-      <p>
-        Install R by downloading and running
-        <a href="http://cran.r-project.org/bin/windows/base/release.htm">this .exe file</a>
-        from <a href="http://cran.r-project.org/index.html">CRAN</a>.
-        <br/>Also, please install the
-        <a href="http://www.rstudio.com/ide/download/desktop">RStudio IDE</a>.
-      </p>
-    </div>
-    <div class="col-md-4">
-      <h4 id="r-macosx">Mac OS X</h4>
-      <p>
-        Install R by downloading and running
-        <a href="http://cran.r-project.org/bin/macosx/R-latest.pkg">this .pkg file</a>
-        from <a href="http://cran.r-project.org/index.html">CRAN</a>.
-        <br/>Also, please install the
-        <a href="http://www.rstudio.com/ide/download/desktop">RStudio IDE</a>.
-      </p>
-    </div>
-    <div class="col-md-4">
-      <h4 id="r-linux">Linux</h4>
-      <p>
-        You can download the binary files for your distribution
-        from <a href="http://cran.r-project.org/index.html">CRAN</a>. Or
-        you can use your package manager (e.g. for Debian/Ubuntu
-        run <code>sudo apt-get install r-base</code> and for Fedora run
-        <code>sudo yum install R</code>).
-        <br/>Also, please install the
-        <a href="http://www.rstudio.com/ide/download/desktop">RStudio IDE</a>.
-      </p>
-    </div>
-</div> <!-- End of 'R' section. -->
