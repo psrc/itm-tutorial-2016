@@ -304,19 +304,20 @@ SQL is a specialized programming language used with databases. Here at PSRC, we 
 
 [R](http://www.r-project.org) is a programming language that is especially powerful for data exploration, visualization, and statistical analysis. To interact with R, we use [RStudio](http://www.rstudio.com).
 
+<table><tr><td>
 <div class="row">
     <div class="col-md-4">
-      <h4 id="r-windows">Windows</h4>
+      <h5 id="r-windows">Windows</h5>
       <p>
         Install R by downloading and running
         <a href="http://cran.r-project.org/bin/windows/base/release.htm">this .exe file</a>
-        from <a href="http://cran.r-project.org/index.html">CRAN</a>.
-        <br/>Also, please install the
+        from <a href="http://cran.r-project.org/index.html">CRAN</a>.</p>
+        <p>Then install the
         <a href="http://www.rstudio.com/ide/download/desktop">RStudio IDE</a>.
-      </p>
+        </p>
     </div>
     <div class="col-md-4">
-      <h4 id="r-macosx">Mac OS X</h4>
+      <h5 id="r-macosx">Mac OS X</h5>
       <p>
         Install R by downloading and running
         <a href="http://cran.r-project.org/bin/macosx/R-latest.pkg">this .pkg file</a>
@@ -326,7 +327,7 @@ SQL is a specialized programming language used with databases. Here at PSRC, we 
       </p>
     </div>
     <div class="col-md-4">
-      <h4 id="r-linux">Linux</h4>
+      <h5 id="r-linux">Linux</h5>
       <p>
         You can download the binary files for your distribution
         from <a href="http://cran.r-project.org/index.html">CRAN</a>. Or
@@ -338,6 +339,7 @@ SQL is a specialized programming language used with databases. Here at PSRC, we 
       </p>
     </div>
 </div> <!-- End of 'R' section. -->
+</td></tr></table>
 
 #### E. Check your setup
 
