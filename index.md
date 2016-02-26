@@ -5,7 +5,7 @@ venue: "ITM 2016 Software Carpentry Tutorials: Python, Git, and R"
 address: Innovations in Travel Modeling 2015, Denver, CO
 country: us    # country (lowercase two-letter ISO code such as "fr" - see https://en.wikipedia.org/wiki/ISO_3166-1)
 language: en   # language (lowercase two-letter ISO code such as "fr" - see https://en.wikipedia.org/wiki/ISO_639-1)
-latlng: 39.74,-104.99     # fractional latitude and longitude (e.g., "39.74,-104.99"; you can use http://www.latlong.net/)
+latlng: "39.74,-104.99"     # fractional latitude and longitude (e.g., "39.74,-104.99"; you can use http://www.latlong.net/)
 humandate: "May, 2016"
 humantime: "TBD"
 startdate: "2015-12-15"  # use YYYY-MM-DD format like "2015-01-01"
