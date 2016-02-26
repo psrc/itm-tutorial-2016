@@ -102,7 +102,7 @@ Email {% if page.contact %}
 ## Syllabus
 
 <div class="row">
-  <div class="col-md-6">
+  <div class="col-md-4">
     <h3 id="syllabus-git">Version Control with Git</h3>
     <ul>
       <li>Creating a repository</li>
@@ -117,7 +117,7 @@ Email {% if page.contact %}
     </ul>
   </div>
 
-  <div class="col-md-6">
+  <div class="col-md-4">
     <h3 id="syllabus-python">Programming in Python</h3>
     <ul>
       <li>Using libraries</li>
@@ -130,7 +130,8 @@ Email {% if page.contact %}
       <li><a href="{{site.swc_githubio}}/python-novice-inflammation/reference.html">Reference...</a></li>
     </ul>
   </div>
-  <div class="col-md-6">
+
+  <div class="col-md-4">
     <h3 id="syllabus-r">Programming in R</h3>
     <ul>
       <li>Working with vectors and data frames</li>
@@ -141,7 +142,6 @@ Email {% if page.contact %}
       <li><a href="{{site.swc_githubio}}/r-novice-inflammation/reference.html">Reference...</a></li>
     </ul>
   </div>
-
 </div>
 
 <!--
