@@ -103,7 +103,7 @@ Email {% if page.contact %}
 
 <div class="row">
   <div class="col-md-4">
-    <h3 id="syllabus-git">Version Control with Git</h3>
+    <h3 id="syllabus-git">Git Version Control</h3>
     <ul>
       <li>Creating a repository</li>
       <li>Recording changes to files: <code>add</code>, <code>commit</code>, ...</li>
