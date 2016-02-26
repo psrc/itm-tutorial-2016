@@ -1,19 +1,19 @@
 ---
 layout: workshop
 root: .
-venue: "Scripting Carpentry"
-address: Puget Sound Regional Council, 1011 Western Ave, Suite 500, Seattle WA
+venue: "ITM 2016 Software Carpentry Tutorials: Python, Git, and R"
+address: Innovations in Travel Modeling 2015, Denver, CO
 country: us    # country (lowercase two-letter ISO code such as "fr" - see https://en.wikipedia.org/wiki/ISO_3166-1)
 language: en   # language (lowercase two-letter ISO code such as "fr" - see https://en.wikipedia.org/wiki/ISO_639-1)
-latlng: 47.6054148,-122.337372     # fractional latitude and longitude (e.g., "41.7901128,-87.6007318"; you can use http://www.latlong.net/)
-humandate: "December, 2015"
-humantime: "12:30 pm - 4:30 pm daily"
+latlng: 39.74,-104.99     # fractional latitude and longitude (e.g., "39.74,-104.99"; you can use http://www.latlong.net/)
+humandate: "May, 2016"
+humantime: "TBD"
 startdate: "2015-12-15"  # use YYYY-MM-DD format like "2015-01-01"
 enddate: "2015-12-16"    # use YYYY-MM-DD format like" 2015-01-02"
-instructor: ["Billy Charlton", "Peter&nbsp;Caballero", "Suzanne&nbsp;Childress", "Brice&nbsp;Nichols", "Hana&nbsp;Ševčíková", "Stefan&nbsp;Coe"]
-helper: ['TBD']
+instructor: ["Billy Charlton", "Josie Kressner"]
+helper: ['Brice Nichols']
 contact: "bcharlton@psrc.org"
-etherpad: "https://public.etherpad-mozilla.org/p/psrc-scripting-workshop-2015"
+etherpad: "https://public.etherpad-mozilla.org/p/itm-workshop-2016"
 eventbrite:       # optional (insert the alphanumeric key for Eventbrite registration, e.g., "1234567890AB")
 ---
 
@@ -103,18 +103,6 @@ Email {% if page.contact %}
 
 <div class="row">
   <div class="col-md-6">
-    <h3 id="syllabus-shell">Command-Line Ninja:<br/>The Unix Shell</h3>
-    <ul>
-      <li>Files and directories</li>
-      <li>History and tab completion</li>
-      <li>Pipes and redirection</li>
-      <li>Looping over files</li>
-      <li>Creating and running shell scripts</li>
-      <li>Finding things</li>
-      <li><a href="{{site.swc_githubio}}/shell-novice/reference.html">Reference...</a></li>
-    </ul>
-  </div>
-  <div class="col-md-6">
     <h3 id="syllabus-git">Version Control with Git</h3>
     <ul>
       <li>Creating a repository</li>
@@ -129,9 +117,6 @@ Email {% if page.contact %}
     </ul>
   </div>
 
-</div>
-
-<div class="row">
   <div class="col-md-6">
     <h3 id="syllabus-python">Programming in Python</h3>
     <ul>
@@ -146,23 +131,6 @@ Email {% if page.contact %}
     </ul>
   </div>
   <div class="col-md-6">
-    <h3 id="syllabus-sql">Managing Data with SQL</h3>
-    <ul>
-      <li>Reading and sorting data</li>
-      <li>Filtering with <code>where</code></li>
-      <li>Calculating new values on the fly</li>
-      <li>Handling missing values</li>
-      <li>Combining values using aggregation</li>
-      <li>Combining information from multiple tables using <code>join</code></li>
-      <li>Creating, modifying, and deleting data</li>
-      <li>Python and databases</li>
-      <li><a href="{{site.swc_githubio}}/sql-novice-survey/reference.html">Reference...</a></li>
-    </ul>
-  </div>
-</div>
-
-<div class="row">
-  <div class="col-md-6">
     <h3 id="syllabus-r">Programming in R</h3>
     <ul>
       <li>Working with vectors and data frames</li>
@@ -171,19 +139,6 @@ Email {% if page.contact %}
       <li>Loops and conditionals</li>
       <li>Using R from the command line</li>
       <li><a href="{{site.swc_githubio}}/r-novice-inflammation/reference.html">Reference...</a></li>
-    </ul>
-  </div>
-
-  <div class="col-md-6">
-    <h3 id="syllabus-make">Automation with Make</h3>
-    <ul>
-      <li>Introduction</li>
-      <li>Makefiles</li>
-      <li>Automatic variables</li>
-      <li>Dependencies on data and code</li>
-      <li>Pattern rules</li>
-      <li>Variables and Functions</li>
-      <li><a href="{{site.swc_githubio}}/make-novice/reference.html">Reference...</a></li>
     </ul>
   </div>
 
@@ -234,6 +189,8 @@ We maintain a list of common issues that occur during installation as a referenc
 ### Windows Instructions
 
 #### A. Git and the Unix 'Bash' Shell
+
+***You need the latest version of 64-bit Git. Even if you already have Git installed on your PC, replace it with this new version.***
 
 Git is a version control system that lets you track who made changes to what when and has options for easily updating a shared or public version of your code
 on [github.com](https://github.com). You will need a [supported web browser](https://help.github.com/articles/supported-browsers) (current versions of Chrome, Firefox or Safari, or Internet Explorer version 9 or above).
