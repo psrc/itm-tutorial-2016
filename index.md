@@ -210,7 +210,7 @@ On Windows, the easiest way to get Bash is to use the copy that is included in t
    7. Keep **"Checkout Windows-style, commit Unix-style line endings"** selected. Click "Next".
    8. Select **"Use Windows' default console window"** and click on "Next" and "Finish".
 3. ConsoleZ is a much nicer "terminal" program that has a legible font, resizable window, and more. You'll use ConsoleZ to launch the Bash terminal window instead of using the "Git Bash" icon.
-   * Download the [ConsoleZ Installer](/2015-12-scripting-workshop/setup/ConsoleZ-Installer.exe) and follow the default installer prompts.
+   * Download the [ConsoleZ Installer](/itm-tutorial-2016/setup/ConsoleZ-Installer.exe) and follow the default installer prompts.
    * If Chrome or Firefox warns you that the installer file is untrusted, just go along with it. I created the installer here at PSRC and it is safe to install.
 
 #### B. Text Editor
@@ -302,7 +302,7 @@ SQL is a specialized programming language used with databases. Here at PSRC, we 
 
 **To check you have the correct version of Python:**
 
-* Download [swc-installation-test-1.py](/2015-12-scripting-workshop/setup/swc-installation-test-1.py)
+* Download [swc-installation-test-1.py](/itm-tutorial-2016/setup/swc-installation-test-1.py)
 * Open up a Bash shell - start "Git Bash" on Windows, or "Terminal" on Mac
 * Change into the directory where you put the script by typing in the bash window:
    * <code>cd ~/Downloads</code>
@@ -311,7 +311,7 @@ SQL is a specialized programming language used with databases. Here at PSRC, we 
 
 **To check you have set up the other software requirements correctly:**
 
-* Download [swc-installation-test-2.py](/2015-12-scripting-workshop/setup/swc-installation-test-2.py)
+* Download [swc-installation-test-2.py](//itm-tutorial-2016/setup/swc-installation-test-2.py)
 * Open up a Bash shell. Change into the directory where you put the script by typing in the bash window:
    * <code>cd ~/Downloads</code>
 * Run the script:
