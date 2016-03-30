@@ -311,7 +311,7 @@ SQL is a specialized programming language used with databases. Here at PSRC, we 
 
 **To check you have set up the other software requirements correctly:**
 
-* Download [swc-installation-test-2.py](//itm-tutorial-2016/setup/swc-installation-test-2.py)
+* Download [swc-installation-test-2.py](/itm-tutorial-2016/setup/swc-installation-test-2.py)
 * Open up a Bash shell. Change into the directory where you put the script by typing in the bash window:
    * <code>cd ~/Downloads</code>
 * Run the script:
