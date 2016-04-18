@@ -173,32 +173,49 @@ We will use Etherpad for chatting, taking notes, and sharing URLs and bits of co
 
 ## Setup
 
-To participate in a Software Carpentry workshop, you will need
-access to the software described below. In addition, you will
-need an up-to-date web browser.
+To participate in the tutorials, you will need to install the software described below. You only need to install the software required for each tutorial you will attend. In addition, you will need an up-to-date web browser.
 
-**Be sure to set up all five software items below on your primary desktop computer ahead of time -- before the day of the course.**
+Software Carpentry maintain a list of common issues that occur during installation as a reference: [configuration problems and solutions](https://github.com/swcarpentry/workshop-template/wiki/Configuration-Problems-and-Solutions).
 
-At the workshop, you may be using a borrowed laptop to remote control your primary work computer: that way, all the software setup can happen ahead of time. Added bonus: all the software will be at your fingertips when you return to your desk afterwards, too.
++ Git Tutorial
+  + Text editor
+  + Bash
+  + Git
++ Python Tutorial
+  + Text editor
+  + Python 2.7
+  + SQLite
++ R Tutorial
+  + R
+  + RStudio
 
-We maintain a list of common issues that occur during installation as a reference for instructors that may be useful on the [Configuration Problems and Solutions wiki page](https://github.com/swcarpentry/workshop-template/wiki/Configuration-Problems-and-Solutions).
+
+### Text Editor
+When you're writing code, it's nice to have a text editor that is optimized for writing code, with features like automatic color-coding of key words. **nano** is a basic editor and the default that instructors use in the workshop.
+
+#### Windows
+* To install nano, download the [Software Carpentry Windows installer](https://github.com/swcarpentry/windows-installer/releases/latest) and double click on the file to run it. *This installer requires an active internet connection.* Even if you choose not to use nano, we recommend you run the Software Carpentry installer because it also sets sane defaults for some other tools such as SQLite and Make.
+* **Others editors** that you may want to use are [Notepad++](http://notepad-plus-plus.org), [Sublime Text](http://www.sublimetext.com), or [Atom](https://atom.io/). Be aware that you must add the editor's installation directory to your system path so that you can follow along in the tutorials. Please ask your instructor to help you do this.
+
+#### Mac/Linux
+* **nano** is usually installed by default on Mac and Linux. If you're on a Linux systetm that does not preinstall it, use your system's package manager to install **nano**. 
+* Note that the default text editor on Mac OS X and Linux is usually set to Vim, which is difficult for beginners. If you accidentally find yourself stuck in it, try typing the escape key, followed by <code>:q!</code> (colon, lower-case 'q', exclamation mark), then hitting Return to return to the shell. 
 
 
----
-
-### Windows Instructions
-
-#### A. Git and the Unix 'Bash' Shell
-
-***You need the latest version of 64-bit Git. Even if you already have Git installed on your PC, replace it with this new version.***
-
-Git is a version control system that lets you track who made changes to what when and has options for easily updating a shared or public version of your code
-on [github.com](https://github.com). You will need a [supported web browser](https://help.github.com/articles/supported-browsers) (current versions of Chrome, Firefox or Safari, or Internet Explorer version 9 or above).
-
+### Bash
 Bash is a commonly-used shell that gives you the power to do simple tasks more quickly.
 
-On Windows, the easiest way to get Bash is to use the copy that is included in the Git for Windows installer.
+#### Windows
+On Windows, the easiest way to get Bash is to use the copy that is included in the Git for Windows installer. Skip to the Git section.
 
+#### Mac/Linux
+The default shell in all versions of Mac OS X is Bash, so no need to install anything. You access Bash from the Terminal, which is found in <code>/Applications/Utilities</code>. You may want to keep Terminal in your dock for this workshop. Linux also by default usually includes Bash as the shell. If not, use your package manager to install it.
+
+
+### Git
+***You need the latest version of 64-bit Git. Even if you already have Git installed on your laptop, replace it with this new version.*** Git is a version control system that lets you track who made changes to what when and has options for easily updating a shared or public version of your code on [github.com](https://github.com). You will need a [supported web browser](https://help.github.com/articles/supported-browsers) (current versions of Chrome, Firefox or Safari, or Internet Explorer version 9 or above).
+
+#### Windows
 1. Download the [Git for Windows Installer](https://git-for-windows.github.io).
 2. Run the installer and follow the steps below:
    1. Click on "Next".
@@ -213,97 +230,59 @@ On Windows, the easiest way to get Bash is to use the copy that is included in t
    * Download the [ConsoleZ Installer](/itm-tutorial-2016/setup/ConsoleZ-Installer.exe) and follow the default installer prompts.
    * If Chrome or Firefox warns you that the installer file is untrusted, just go along with it. I created the installer here at PSRC and it is safe to install.
 
-#### B. Text Editor
+#### Mac/Linux
+* For OS X 10.9 and higher, install Git for Mac by downloading and running the most recent "mavericks" installer from [this list](http://sourceforge.net/projects/git-osx-installer/files/). After installing Git, there will not be a Git application in your <code>/Applications</code> folder, as Git is a command line program.
+* For older versions of OS X (10.5-10.8), use the most recent available installer labelled "snow-leopard" [available here](http://sourceforge.net/projects/git-osx-installer/files). After installing Git, there will not be a Git application in your <code>/Applications</code> folder, as Git is a command line program.
 
-When you're writing code, it's nice to have a text editor that is
-optimized for writing code, with features like automatic
-color-coding of key words.
 
-The default text editor on Mac OS X and Linux is usually set to Vim, which is a bad choice for beginners. If you accidentally find yourself stuck in it, try typing the escape key, followed by <code>:q!</code> (colon, lower-case 'q',
-exclamation mark), then hitting Return to return to the shell.
+### Python 2.7
+[Python](http://python.org) is a very popular language for scientific computing, and great for general-purpose programming as well.  Installing all of its scientific packages individually can be a bit difficult, so we recommend [Anaconda](https://www.continuum.io/anaconda), an all-in-one installer. Regardless of how you choose to install it, **please make sure you install Python version 2.7**. We are not ready to move to Python 3 just yet.
 
-**nano** is a basic editor and the default that instructors use in the workshop.
+We will teach Python using the IPython notebook, a programming environment that runs in a web browser. For this to work, you will need an up-to-date browser. The current versions of the Chrome, Safari and Firefox browsers are [all supported](http://ipython.org/ipython-doc/2/install/install.html#browser-compatibility). Some older browsers, including Internet Explorer version 9 and below, are not.
 
-* To install nano, download the [Software Carpentry Windows installer](https://github.com/swcarpentry/windows-installer/releases/latest) and double click on the file to run it. *This installer requires an active internet connection.*
-* Even if you choose not to use nano, we recommend you run the Software Carpentry installer because it also sets sane defaults for some other tools such as SQLite and Make.
-* **Others editors** that you may want to use are [Notepad++](http://notepad-plus-plus.org) or [Sublime Text](http://www.sublimetext.com). Be aware that you must add the editor's installation directory to your system path. Please ask your instructor to help you do this.
-
-#### C. Python
-
-[Python](http://python.org) is a very popular language for
-scientific computing, and great for general-purpose programming as
-well.  Installing all of its scientific packages individually can be
-a bit difficult, so we recommend [Anaconda](https://www.continuum.io/anaconda), an all-in-one installer.
-
-Regardless of how you choose to install it, **please make sure you install Python version 2.7**. We are not ready to move to Python 3 just yet.
-
-We will teach Python using the IPython notebook, a programming environment
-that runs in a web browser. For this to work, you will need an
-up-to-date browser. The current versions of the Chrome, Safari and
-Firefox browsers are [all supported](http://ipython.org/ipython-doc/2/install/install.html#browser-compatibility). Some older browsers, including Internet Explorer version 9 and below, are not.
-
+#### Windows
 To install Anaconda Python:
-
 * Open the Continuum Ananaconda [download page](http://continuum.io/downloads) with your web browser.
 * Download the Python 2.7 installer for Windows.
 * Install Python 2.7 using all of the defaults for installation **except** make sure to check **Make Anaconda the default Python**.
 
+#### Mac/Linux
+We recommend the Continuum Ananconda Python all-in-one python installer, which installs a basic Python system as well as the scientific computing modules required for this course.
 
-#### D. SQLite
+* Open [http://continuum.io/downloads](http://continuum.io/downloads) with your web browser.
+* Download the Python 2.7 installer for OS X or your Linux.  We are not using Python 3 yet.
+* Install Python 2.7 using all of the defaults for installation.
 
-***FOR DISCUSSION*** - SQLite is easiest way to fiddle with SQL on a desktop. But we could also set up access to our "real" MySQL databases right?
 
-SQL is a specialized programming language used with databases. Here at PSRC, we have existing enterprise databases in MS-SQL and MySQL, but those are a bit complex to set up. For this course, we use a simple database manager called [SQLite](http://www.sqlite.org). The SQL language is essentially identical, so the skills will all transfer -- and having a simple desktop version of SQL has its own benefits.
+### SQLite
+SQL is a specialized programming language used with databases. In enterprise applications, typically MySQL or PostgreSQL are used, but those are complex to set up. For this course, we use a simple database manager called [SQLite](http://www.sqlite.org). The SQL language is essentially identical, so the skills will all transfer -- and having a simple desktop version of SQL has its own benefits.
 
+#### Windows
 * The [Software Carpentry Windows Installer](https://github.com/swcarpentry/windows-installer/releases/latest) installs SQLite for Windows. If you used the installer already to install the nano text editor, you don't need to run it again. Otherwise, run it now.
 
-#### E. R-Project (Statistics Software)
+#### Mac/Linux
+SQLite comes pre-installed on Mac OS X. For Linux, use your package manager to install it.
 
+
+### R
 [R](http://www.r-project.org) is a programming language that is especially powerful for data exploration, visualization, and statistical analysis. To interact with R, we use [RStudio](http://www.rstudio.com).
 
-<table><tr><td>
-<div class="row">
-    <div class="col-md-4">
-      <h5 id="r-windows">Windows</h5>
-      <p>
-        Install R by downloading and running
-        <a href="http://cran.r-project.org/bin/windows/base/release.htm">this .exe file</a>
-        from <a href="http://cran.r-project.org/index.html">CRAN</a>.</p>
-        <p>Then install the
-        <a href="http://www.rstudio.com/ide/download/desktop">RStudio IDE</a>.
-        </p>
-    </div>
-    <div class="col-md-4">
-      <h5 id="r-macosx">Mac OS X</h5>
-      <p>
-        Install R by downloading and running
-        <a href="http://cran.r-project.org/bin/macosx/R-latest.pkg">this .pkg file</a>
-        from <a href="http://cran.r-project.org/index.html">CRAN</a>.
-        <br/>Also, please install the
-        <a href="http://www.rstudio.com/ide/download/desktop">RStudio IDE</a>.
-      </p>
-    </div>
-    <div class="col-md-4">
-      <h5 id="r-linux">Linux</h5>
-      <p>
-        You can download the binary files for your distribution
-        from <a href="http://cran.r-project.org/index.html">CRAN</a>. Or
-        you can use your package manager (e.g. for Debian/Ubuntu
-        run <code>sudo apt-get install r-base</code> and for Fedora run
-        <code>sudo yum install R</code>).
-        <br/>Also, please install the
-        <a href="http://www.rstudio.com/ide/download/desktop">RStudio IDE</a>.
-      </p>
-    </div>
-</div> <!-- End of 'R' section. -->
-</td></tr></table>
+#### Windows
+Install R by downloading and running <a href="http://cran.r-project.org/bin/windows/base/release.htm">this .exe file</a> from <a href="http://cran.r-project.org/index.html">CRAN</a>. Then install the <a href="http://www.rstudio.com/ide/download/desktop">RStudio IDE</a>.
 
-#### E. Check your setup
+#### Mac
+Install R by downloading and running <a href="http://cran.r-project.org/bin/macosx/R-latest.pkg">this .pkg file</a> from <a href="http://cran.r-project.org/index.html">CRAN</a>. Also, please install the <a href="http://www.rstudio.com/ide/download/desktop">RStudio IDE</a>.
+
+#### Linux
+You can download the binary files for your distribution from <a href="http://cran.r-project.org/index.html">CRAN</a>. Or you can use your package manager (e.g. for Debian/Ubuntu run <code>sudo apt-get install r-base</code> and for Fedora run <code>sudo yum install R</code>). Also, please install the <a href="http://www.rstudio.com/ide/download/desktop">RStudio IDE</a>.
+
+
+## Check Your Setup
 
 **To check you have the correct version of Python:**
 
 * Download [swc-installation-test-1.py](/itm-tutorial-2016/setup/swc-installation-test-1.py)
-* Open up a Bash shell - start "Git Bash" on Windows, or "Terminal" on Mac
+* Open up a Bash shell - start "Git Bash" on Windows, "Terminal" on Mac, or your bash shell on Linux.
 * Change into the directory where you put the script by typing in the bash window:
    * <code>cd ~/Downloads</code>
 * Run the script:
@@ -318,27 +297,4 @@ SQL is a specialized programming language used with databases. Here at PSRC, we 
    * <code>python swc-installation-test-2.py</code>
 
 If anything is missing, the script output will specify what needs to be corrected.
-
----
-
-### Mac OS X
-
-* **Bash:** the default shell in all versions of Mac OS X is Bash, so no need to install anything.
-  * You access Bash from the Terminal
-        (found in <code>/Applications/Utilities</code>). You may want to keep Terminal in your dock for this workshop.
-* **Git:**
-  * For OS X 10.9 and higher, install Git for Mac by downloading and running the most recent "mavericks" installer from
-        [this list](http://sourceforge.net/projects/git-osx-installer/files/). After installing Git, there will not be anything in your <code>/Applications</code> folder, as Git is a command line program.
-  * For older versions of OS X (10.5-10.8), use the most recent available installer labelled "snow-leopard" [available here](http://sourceforge.net/projects/git-osx-installer/files).
-* **Python:** We recommend the Continuum Ananconda Python all-in-one python installer, which installs a basic Python system as well as the scientific computing modules required for this course.
-  * Open [http://continuum.io/downloads](http://continuum.io/downloads) with your web browser.
-  * Download the Python 2.7 installer for OS X.  We are not using Python 3 yet.
-  * Install Python 2.7 using all of the defaults for installation.
-* **SQLite**. SQLite comes pre-installed on Mac OS X.
-
----
-
-### Linux
-
-Use your system's package manager to install python, sqlite, git, and nano.
 
