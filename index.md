@@ -10,8 +10,8 @@ humandate: "May, 2016"
 humantime: "TBD"
 startdate: "2015-12-15"  # use YYYY-MM-DD format like "2015-01-01"
 enddate: "2015-12-16"    # use YYYY-MM-DD format like" 2015-01-02"
-instructor: ["Billy Charlton", "Josie Kressner"]
-helper: ['Brice Nichols']
+instructor: ["Billy Charlton", "Josie Kressner", "Greg Macfarlane", "Brice Nichols"]
+helper:
 contact: "bcharlton@psrc.org"
 etherpad: "https://public.etherpad-mozilla.org/p/itm-workshop-2016"
 eventbrite:       # optional (insert the alphanumeric key for Eventbrite registration, e.g., "1234567890AB")
