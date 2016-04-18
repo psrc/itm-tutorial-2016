@@ -10,7 +10,8 @@ humandate: "May, 2016"
 humantime: "TBD"
 startdate: "2016-05-01"  # use YYYY-MM-DD format like "2015-01-01"
 enddate: "2016-05-03"    # use YYYY-MM-DD format like" 2015-01-02"
-instructor: ["Billy Charlton", "Josie Kressner", "Brice Nichols", "Greg MacFarlane"]
+instructor: ["Billy Charlton", "Josie Kressner", "Greg Macfarlane", "Brice Nichols"]
+helper:
 contact: "bcharlton@psrc.org"
 ---
 
