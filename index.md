@@ -152,16 +152,16 @@ We maintain a list of common issues that occur during installation as a referenc
 
 ### Windows Instructions
 
-#### A. Git and the Unix 'Bash' Shell
+#### A. Git and the 'Bash' Prompt
 
 ***You need the latest version of Git. Even if you already have Git installed on your PC, replace it with this new version.***
 
 Git is a version control system that lets you track who made changes to what when and has options for easily updating a shared or public version of your code
 on [github.com](https://github.com). You will need a [supported web browser](https://help.github.com/articles/supported-browsers) (current versions of Chrome, Firefox or Safari, or Internet Explorer version 9 or above).
 
-Bash is a commonly-used shell that gives you the power to do simple tasks more quickly.
+Bash is a commonly-used shell that gives you the power to do simple tasks more quickly. On Windows, the easiest way to get Bash is to use the copy that is included in the Git for Windows installer.
 
-On Windows, the easiest way to get Bash is to use the copy that is included in the Git for Windows installer.
+Easy install for Git:
 
 1. Download the [Git for Windows Installer](https://git-for-windows.github.io).
 2. Run the installer and click next through the installer prompts, paying attention to these settings:
@@ -184,6 +184,7 @@ exclamation mark), then hitting Return to return to the shell.
 
 * **Others editors** that you may want to use are [Notepad++](http://notepad-plus-plus.org) or [Sublime Text](http://www.sublimetext.com). Be aware that you must add the editor's installation directory to your system path.
 
+
 #### C. Python
 
 [Python](http://python.org) is a very popular language for
@@ -203,6 +204,8 @@ To install Anaconda Python:
 * Open the Continuum Ananaconda [download page](http://continuum.io/downloads) with your web browser.
 * Download the Python 2.7 installer for Windows.
 * Install Python 2.7 using all of the defaults for installation **except** make sure to check **Make Anaconda the default Python**.
+
+If you decide not to install the all-in-one Continuum Anaconda Python, ensure that you have python libraries numpy, pandas, matplotlib, and ipython-notebook installed.
 
 
 #### D. R-Project (Statistics Software)
