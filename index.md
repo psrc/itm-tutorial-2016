@@ -165,7 +165,7 @@ Easy install for Git:
 
 1. Download the [Git for Windows Installer](https://git-for-windows.github.io).
 2. Run the installer and click next through the installer prompts, paying attention to these settings:
-   * Select "Use Git from the Windows Command Prompt" If you forget to do this, programs that you need for the workshop will not work properly. If this happens, rerun the installer and select the appropriate option.
+   * Select **"Use Git from the Windows Command Prompt"**. If you forget to do this, programs that you need for the workshop will not work properly. If this happens, rerun the installer and select the appropriate option.
    * Keep **"Checkout Windows-style, commit Unix-style line endings"** selected.
    * Select **"Use Windows' default console window"**
    * The other settings are mostly benign and the defaults should suffice.
