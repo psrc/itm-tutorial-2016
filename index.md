@@ -168,11 +168,11 @@ Software Carpentry maintain a list of common issues that occur during installati
   + RStudio
 
 ### Text Editor
-When you're writing code, it's nice to have a text editor that is optimized for writing code, with features like automatic color-coding of key words. **nano** is a basic editor and the default that instructors use in the workshop.
+When you're writing code, it's nice to have a text editor that is optimized for writing code, with features like automatic color-coding of key words. **nano** is a very basic editor and the default that instructors use in the workshop.
 
 #### Windows
 * To install nano, download the [Software Carpentry Windows installer](https://github.com/swcarpentry/windows-installer/releases/latest) and double click on the file to run it. *This installer requires an active internet connection.* Even if you choose not to use nano, we recommend you run the Software Carpentry installer because it also sets sane defaults for some other tools such as SQLite and Make.
-* **Others editors** that you may want to use are [Notepad++](http://notepad-plus-plus.org), [Sublime Text](http://www.sublimetext.com), or [Atom](https://atom.io/). Be aware that you must add the editor's installation directory to your system path so that you can follow along in the tutorials. Please ask your instructor to help you do this.
+* **Other editors** that you may prefer are [Notepad++](http://notepad-plus-plus.org), [Sublime Text](http://www.sublimetext.com), or [Atom](https://atom.io/). Be aware that you must add the editor's installation directory to your system path so that you can follow along in the tutorials. Please ask your instructor to help you do this.
 
 #### Mac/Linux
 * **nano** is usually installed by default on Mac and Linux. If you're on a Linux systetm that does not preinstall it, use your system's package manager to install **nano**.
