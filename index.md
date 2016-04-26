@@ -63,7 +63,7 @@ Interested in learning Python but don't know where to start? Join us for this la
 <b>Tools for Collaborative Open Source Model Development: GitHub and beyond!</b><br>
 Sunday, May 1, 2016 3:00 p.m. - 5:00 p.m.<br>
 Moderators: Billy Charlton and Brice Nichols (Puget Sound Regional Council)<br>
-This laptops-open tutorial will build skills necessary for effective collaborative software development including version control, issue-tracking, documentation, release planning, testing, and code review using GitHub and other associated tools. 
+This laptops-open tutorial will build skills necessary for effective collaborative software development including version control, issue-tracking, documentation, release planning, testing, and code review using GitHub and other associated tools.
 
 <b>Using R for Data Cleaning, Munging, Visualizing, and Modeling</b><br>
 Tuesday, May 3, 2016 1:30 p.m. - 3:00 p.m.<br>
@@ -175,8 +175,8 @@ When you're writing code, it's nice to have a text editor that is optimized for 
 * **Others editors** that you may want to use are [Notepad++](http://notepad-plus-plus.org), [Sublime Text](http://www.sublimetext.com), or [Atom](https://atom.io/). Be aware that you must add the editor's installation directory to your system path so that you can follow along in the tutorials. Please ask your instructor to help you do this.
 
 #### Mac/Linux
-* **nano** is usually installed by default on Mac and Linux. If you're on a Linux systetm that does not preinstall it, use your system's package manager to install **nano**. 
-* Note that the default text editor on Mac OS X and Linux is usually set to Vim, which is difficult for beginners. If you accidentally find yourself stuck in it, try typing the escape key, followed by <code>:q!</code> (colon, lower-case 'q', exclamation mark), then hitting Return to return to the shell. 
+* **nano** is usually installed by default on Mac and Linux. If you're on a Linux systetm that does not preinstall it, use your system's package manager to install **nano**.
+* Note that the default text editor on Mac OS X and Linux is usually set to Vim, which is difficult for beginners. If you accidentally find yourself stuck in it, try typing the escape key, followed by <code>:q!</code> (colon, lower-case 'q', exclamation mark), then hitting Return to return to the shell.
 
 
 ### Bash
@@ -213,6 +213,7 @@ We will teach Python using the IPython notebook, a programming environment that 
 
 #### Windows
 To install Anaconda Python:
+
 * Open the Continuum Ananaconda [download page](http://continuum.io/downloads) with your web browser.
 * Download the Python 2.7 installer for Windows.
 * Install Python 2.7 using all of the defaults for installation **except** make sure to check **Make Anaconda the default Python**.
@@ -223,13 +224,6 @@ We recommend the Continuum Ananconda Python all-in-one python installer, which i
 * Open [http://continuum.io/downloads](http://continuum.io/downloads) with your web browser.
 * Download the Python 2.7 installer for OS X or your Linux.  We are not using Python 3 yet.
 * Install Python 2.7 using all of the defaults for installation.
-### SQLite
-SQL is a specialized programming language used with databases. In enterprise applications, typically MySQL or PostgreSQL are used, but those are complex to set up. For this course, we use a simple database manager called [SQLite](http://www.sqlite.org). The SQL language is essentially identical, so the skills will all transfer -- and having a simple desktop version of SQL has its own benefits.
-#### Windows
-
-#### Mac/Linux
-SQLite comes pre-installed on Mac OS X. For Linux, use your package manager to install it.
-
 
 ### R
 [R](http://www.r-project.org) is a programming language that is especially powerful for data exploration, visualization, and statistical analysis. To interact with R, we use [RStudio](http://www.rstudio.com).
@@ -264,12 +258,3 @@ You can download the binary files for your distribution from <a href="http://cra
    * <code>python swc-installation-test-2.py</code>
 
 If anything is missing, the script output will specify what needs to be corrected.
-
-        <a href="http://cran.r-project.org/bin/macosx/R-latest.pkg">this .pkg file</a>
-        from <a href="http://cran.r-project.org/index.html">CRAN</a>.
-        <br/>Also, please install the <a href="http://www.rstudio.com/ide/download/desktop">RStudio IDE</a>.
-
-* Python -- also be sure to install numpy, ipython, and pandas
-* R -- install R and R-Studio
-* Git -- the basic git tools in your distribution are probably sufficient.
-
