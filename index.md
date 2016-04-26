@@ -1,13 +1,13 @@
 ---
 layout: workshop
 root: .
-venue: "ITM 2016 Software Carpentry Tutorials: Python, Git, and R"
+venue: "ITM 2016 Tutorials: Python, Git, and R"
 address: Innovations in Travel Modeling 2016, Denver, CO
 country: us    # country (lowercase two-letter ISO code such as "fr" - see https://en.wikipedia.org/wiki/ISO_3166-1)
 language: en   # language (lowercase two-letter ISO code such as "fr" - see https://en.wikipedia.org/wiki/ISO_639-1)
 latlng: "39.74,-104.99"     # fractional latitude and longitude (e.g., "39.74,-104.99"; you can use http://www.latlong.net/)
-humandate: "May, 2016"
-humantime: "TBD"
+humandate: "Sunday, May 1, 2016 and Tuesday, May 3, 2016"
+humantime: ""
 startdate: "2016-05-01"  # use YYYY-MM-DD format like "2015-01-01"
 enddate: "2016-05-03"    # use YYYY-MM-DD format like" 2015-01-02"
 instructor: ["Billy Charlton", "Josie Kressner", "Greg Macfarlane", "Brice Nichols"]
@@ -51,10 +51,24 @@ contact: "bcharlton@psrc.org"
   the pitch.
 -->
 
-Hi there! These sessions are introductory workshops that can help get you up to speed on tools that will make your work day easier. This course is based on materials produced by [Software Carpentry]({{site.swc_site}}). Software Carpentry's mission is to help scientists and engineers get more research done in less time and with less pain by teaching them basic lab skills for scientific computing.
+At this year's TRB Innovations in Travel Modeling Conference, we will host three tutorials that can help get you up to speed on tools to make your work day easier. This course is based on materials produced by [Software Carpentry]({{site.swc_site}}). Software Carpentry's mission is to help scientists and engineers get more research done in less time and with less pain by teaching them basic lab skills for scientific computing.
 
-We've hand-picked three topics that are relevant to the demand modeler profession. Participants will be encouraged to
-help one another and to apply what they have learned to their own research problems.
+These hands-on workshops will cover basic concepts and workflow with Python, Git, and R.
+
+<b>Travel Analysis and Modeling using Python</b><br>
+Sunday, May 1, 2016 1:00 p.m. - 2:45 p.m.<br>
+Moderators: Brice Nichols and Billy Charlton (Puget Sound Regional Council)<br>
+Interested in learning Python but don't know where to start? Join us for this laptops-open tutorial that starts with the very basics and builds the basic skills you will need to use Python for travel analysis.
+
+<b>Tools for Collaborative Open Source Model Development: GitHub and beyond!</b><br>
+Sunday, May 1, 2016 3:00 p.m. - 5:00 p.m.<br>
+Moderators: Billy Charlton and Brice Nichols (Puget Sound Regional Council)<br>
+This laptops-open tutorial will build skills necessary for effective collaborative software development including version control, issue-tracking, documentation, release planning, testing, and code review using GitHub and other associated tools. 
+
+<b>Using R for Data Cleaning, Munging, Visualizing, and Modeling</b><br>
+Tuesday, May 3, 2016 1:30 p.m. - 3:00 p.m.<br>
+Moderators: Josie Kressner (Transport Foundry) and Greg Macfarlane (Parsons Brinckerhoff)<br>
+This laptops-open tutorial will help you get your data munging, cleaning, and mathematical modeling done fast and cleanly in R. Hands-on experience during this session will use ACS PUMS, CTPP, NHTS, and other travel datasets you are familiar with for travel analysis.
 
 <!--
   AUDIENCE
@@ -66,17 +80,15 @@ help one another and to apply what they have learned to their own research probl
 <table><tr>
 <td><b>Who:</b></td>
 
-<td>The course is aimed at practitioners, researchers and data scientists in the modeling field. <i>You don't need to have any previous knowledge of the tools that will be presented at the workshop.</i></td></tr>
+<td>The course is aimed at transportation practitioners and researchers. <i>You don't need to have any previous knowledge of the tools that will be presented at the workshop.</i></td></tr>
 
 <td><b>Where:</b></td>
 
-<td>{{page.address}}</td>
+<td>{{page.address}}.</td>
 
 <tr><td valign="top"><b>Requirements:</b></td>
 
-<td>All participants will need to set up a few specific software packages on their computer <a href="#setup">(listed below)</a>.
-<ul><b>you must bring your own laptop</b>, set up with the software below. These are interactive sessions!</li>
-</ul>
+<td>All participants will need to bring a laptop to these tutorials with a few specific software packages installed on their computer <a href="#setup">(listed below)</a>.
 </td></tr>
 
 </table>
@@ -94,7 +106,7 @@ Email {% if page.contact %}
 
 <div class="row">
   <div class="col-md-4">
-    <h3 id="syllabus-git">Git Version Control</h3>
+    <h3 id="syllabus-git">Git</h3>
     <ul>
       <li>Creating a repository</li>
       <li>Recording changes to files: <code>add</code>, <code>commit</code>, ...</li>
@@ -109,7 +121,7 @@ Email {% if page.contact %}
   </div>
 
   <div class="col-md-4">
-    <h3 id="syllabus-python">Programming in Python</h3>
+    <h3 id="syllabus-python">Python</h3>
     <ul>
       <li>Using libraries</li>
       <li>Working with arrays</li>
@@ -123,7 +135,7 @@ Email {% if page.contact %}
   </div>
 
   <div class="col-md-4">
-    <h3 id="syllabus-r">Programming in R</h3>
+    <h3 id="syllabus-r">R</h3>
     <ul>
       <li>Working with vectors and data frames</li>
       <li>Reading and plotting data</li>
