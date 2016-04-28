@@ -116,7 +116,7 @@ Email {% if page.contact %}
       <li>Collaborating with others</li>
       <li>Resolving conflicts</li>
       <li>Where to host work, and why</li>
-      <li><a href="{{site.swc_githubio}}/git-novice/reference.html">Reference...</a></li>
+      <li><a href="http://psrc.github.io/itm-tutorial-git">Reference...</a></li>
     </ul>
   </div>
 
@@ -130,7 +130,7 @@ Email {% if page.contact %}
       <li>Loops and conditionals</li>
       <li>Defensive programming</li>
       <li>Using Python from the command line</li>
-      <li><a href="{{site.swc_githubio}}/python-novice-inflammation/reference.html">Reference...</a></li>
+      <li><a href="http://psrc.github.io/itm-tutorial-python">Reference...</a></li>
     </ul>
   </div>
 
@@ -142,7 +142,7 @@ Email {% if page.contact %}
       <li>Creating and using functions</li>
       <li>Loops and conditionals</li>
       <li>Using R from the command line</li>
-      <li><a href="{{site.swc_githubio}}/r-novice-inflammation/reference.html">Reference...</a></li>
+      <li><a href="http://psrc.github.io/itm-tutorial-R">Reference...</a></li>
     </ul>
   </div>
 </div>
@@ -227,7 +227,7 @@ We recommend the Continuum Ananconda Python all-in-one python installer, which i
 * Install Python 2.7 using all of the defaults for installation.
 
 ### R
-[R](http://www.r-project.org) is a programming language that is especially powerful for data exploration, visualization, and statistical analysis. To interact with R, we use [RStudio](http://www.rstudio.com). 
+[R](http://www.r-project.org) is a programming language that is especially powerful for data exploration, visualization, and statistical analysis. To interact with R, we use [RStudio](http://www.rstudio.com).
 
 Download these two files before arriving: [nhts_day.csv](http://psrc.github.io/itm-tutorial-R/data/nhts_day.csv) and [nhts_per.csv](http://psrc.github.io/itm-tutorial-R/data/nhts_per.csv). These only include the first 200 lines of the full NHTS files. We will tell you where to put them during the tutorial. Just make sure you have them accessible offline before arriving.
 
