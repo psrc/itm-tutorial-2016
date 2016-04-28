@@ -166,6 +166,7 @@ Software Carpentry maintain a list of common issues that occur during installati
 + R Tutorial
   + R
   + RStudio
+  + Two example data files
 
 ### Text Editor
 When you're writing code, it's nice to have a text editor that is optimized for writing code, with features like automatic color-coding of key words. **nano** is a very basic editor and the default that instructors use in the workshop.
@@ -226,7 +227,9 @@ We recommend the Continuum Ananconda Python all-in-one python installer, which i
 * Install Python 2.7 using all of the defaults for installation.
 
 ### R
-[R](http://www.r-project.org) is a programming language that is especially powerful for data exploration, visualization, and statistical analysis. To interact with R, we use [RStudio](http://www.rstudio.com).
+[R](http://www.r-project.org) is a programming language that is especially powerful for data exploration, visualization, and statistical analysis. To interact with R, we use [RStudio](http://www.rstudio.com). 
+
+Download these two files before arriving: [nhts_day.csv](http://psrc.github.io/itm-tutorial-R/data/nhts_day.csv) and [nhts_per.csv](http://psrc.github.io/itm-tutorial-R/data/nhts_per.csv). These only include the first 200 lines of the full NHTS files. We will tell you where to put them during the tutorial. Just make sure you have them accessible offline before arriving.
 
 #### Windows
 Install R by downloading and running <a href="http://cran.r-project.org/bin/windows/base/release.htm">this .exe file</a> from <a href="http://cran.r-project.org/index.html">CRAN</a>. Then install the <a href="http://www.rstudio.com/ide/download/desktop">RStudio IDE</a>.
