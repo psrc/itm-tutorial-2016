@@ -106,22 +106,22 @@ Email {% if page.contact %}
 
 <div class="row">
   <div class="col-md-4">
-    <h3 id="syllabus-git">Git</h3>
+    <h3 id="syllabus-git"><a href="http://psrc.github.io/itm-tutorial-git">Git, GitHub, and Beyond</a></h3>
     <ul>
-      <li>Creating a repository</li>
-      <li>Recording changes to files: <code>add</code>, <code>commit</code>, ...</li>
-      <li>Viewing changes: <code>status</code>, <code>diff</code>, ...</li>
-      <li>Ignoring files</li>
-      <li>Working on the web: <code>clone</code>, <code>pull</code>, <code>push</code>, ...</li>
-      <li>Collaborating with others</li>
-      <li>Resolving conflicts</li>
-      <li>Where to host work, and why</li>
+      <li>Why use version control?</li>
+      <li>Setting up Git</li>
+      <li>Creating a Repository</li>
+      <li>Tracking Changes and Making Snapshots</li>
+      <li>Ignoring Things</li>
+      <li>GitHub</li>
+      <li>Collaborating and Conflicts</li>
+      <li>Project Management with GitHub</li>
       <li><a href="http://psrc.github.io/itm-tutorial-git">Reference...</a></li>
     </ul>
   </div>
 
   <div class="col-md-4">
-    <h3 id="syllabus-python">Python</h3>
+    <h3 id="syllabus-python"><a href="http://psrc.github.io/itm-tutorial-python">Python</a></h3>
     <ul>
       <li>Using libraries</li>
       <li>Working with arrays</li>
@@ -135,7 +135,7 @@ Email {% if page.contact %}
   </div>
 
   <div class="col-md-4">
-    <h3 id="syllabus-r">R</h3>
+    <h3 id="syllabus-r"><a href="http://psrc.github.io/itm-tutorial-R">R</a></h3>
     <ul>
       <li>Working with vectors and data frames</li>
       <li>Reading and plotting data</li>
