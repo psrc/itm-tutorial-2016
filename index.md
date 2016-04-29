@@ -106,7 +106,7 @@ Email {% if page.contact %}
 
 <div class="row">
   <div class="col-md-4">
-    <h3 id="syllabus-git"><a href="http://psrc.github.io/itm-tutorial-git">Git, GitHub, and Beyond</a></h3>
+    <h3 id="syllabus-git"><a href="http://psrc.github.io/itm-tutorial-git">Git and GitHub</a></h3>
     <ul>
       <li>Why use version control?</li>
       <li>Setting up Git</li>
